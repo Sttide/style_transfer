@@ -25,7 +25,7 @@ Then start training:
 `--model_name ` is file name of model weights. The paper uses the [COCO image dataset](http://msvocds.blob.core.windows.net/coco2014/train2014.zip) (13GB).
 
 To generate images fast with an already trained model:
-`python3 generate.py --model_name my_model`
+`python3 generate.py --image myimage.jpg --model_name my_model`
 
 All settings and hyperparameters in "style_transfer.py" or "fast-neural-style.py" where you can modify them.There are some default settings."content.jpg":the name of picture you want to change. "style.jpg" the name of style provider.
 
