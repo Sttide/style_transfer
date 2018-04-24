@@ -15,11 +15,7 @@ This technique uses loss functions based on a perceptual similarity and style si
 
 `python3 style_transfer.py`
 
-(2)To train a model for fast stylizing first download dependences (training set images and VGG model weights):
-
-`./essential.sh`
-
-Then start training:
+(2)Start training a model:
 `python3 fast-neural-style.py  --model_name my_model`
 
 `--model_name ` is file name of model weights. The paper uses the [COCO image dataset](http://msvocds.blob.core.windows.net/coco2014/train2014.zip) (13GB).
