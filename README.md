@@ -23,7 +23,7 @@ This technique uses loss functions based on a perceptual similarity and style si
 To generate images fast with an already trained model:
 `python3 generate.py --image myimage.jpg --model_name my_model`
 
-All settings and hyperparameters in "style_transfer.py" or "fast-neural-style.py" where you can modify them.There are some default settings."content.jpg":the name of picture you want to change. "style.jpg" the name of style provider.
+All settings and hyperparameters in "style_transfer.py" or "fast-neural-style.py" where you can modify them.There are some default settings."content_path": the picture you want to change. "style_path": the style provider.
 
 ### Requirements
 
